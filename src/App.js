@@ -9,8 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <BudgetForm/>
-        This is From user/Amaan one. 
-        THis is master one
+        This is From user/Amaan one two.
       </div>
       
     );
