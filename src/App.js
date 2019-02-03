@@ -9,9 +9,6 @@ class App extends Component {
     return (
       <div className="App">
         <BudgetForm/>
-        This is From user/Amaan one two.
-        THis is master one two three
-        THis is master one
       </div>
       
     );
