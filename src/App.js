@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <BudgetForm/>
         This is From user/Amaan one. 
-        THis is master
+        THis is master one
       </div>
       
     );
