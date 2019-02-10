@@ -5,7 +5,6 @@ import './ExpenseList.css';
 class ExpenseListItem extends Component {
  
     constructor(props){
-        debugger
         super(props);
         this.state = { editable : false,  Expenseid : this.props.expenseId, expenseListObj : {}, Expensename : this.props.name, expenseAmount : this.props.expenseAmount, prevExpenseAmount: this.props.expenseAmount } //{id: '12', name : 'test', expenseAmount : '20'}
         this.name = this.props.name;
@@ -90,7 +89,6 @@ class ExpenseListItem extends Component {
 
 
 function ExpenseList(props){
-    debugger
     const style = {
         listStyleType : 'none'
     };
